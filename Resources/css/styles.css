@@ -1,0 +1,48 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0, 0, 0, 0.199)), url(../css/img/Agua.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+    
+
+    
+.menu{
+    display: flex;
+    margin-right: 5vh;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.menu a,h2{
+    margin-top: 4vh;
+    margin-right: 4vh;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.menu h2{
+    margin-left: 4vh;
+}
+    
+
+    
+
+
+.texto-principal{
+color: white;
+}
+    
+
+
+    
