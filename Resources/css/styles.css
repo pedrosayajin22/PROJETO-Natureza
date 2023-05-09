@@ -6,6 +6,7 @@
 }
 html{
     text-rendering: optimizeLegibility;
+    font-size: 20px;
 }
 
 header{
@@ -24,23 +25,32 @@ header{
     align-items: baseline;
     justify-content: space-between;
 }
-
-.menu a,h2{
+.menu h2{
     margin-top: 4vh;
     margin-right: 4vh;
     text-decoration: none;
     color: white;
     font-weight: 400;
+    font-size: 2rem;
+    transition: all 0.1s ease;
+
+}
+
+.nav a{
+    margin-top: 4vh;
+    margin-right: 4vh;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
     transition: all 0.1s ease;
 
 }
 .menu a:hover{
     border-bottom: 2px solid white;
+    font-size: 1rem;
 }
-.menu h2{
-    margin-left: 4vh;
-    font-weight: 600;
-}
+
     
 .banner{
     margin-top: 25vh;
@@ -51,6 +61,8 @@ header{
 .banner h3{
     font-weight:500;
     margin-left: 1vw;
+    margin-top: -10px;
+    font-size: 1rem;
 }
 .aprenda{
     width: 125px;
@@ -89,8 +101,54 @@ header{
     color: #ffffff; 
 }
 .Botao-banner{
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
+section{
+    padding: 30px 30px;
+    
+}
+section h3 {
+    text-align: center;
+    font-weight: normal;
+}
+.caixa-veja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha{
+    background-color: black;
+    width: 300px;
+    height: 2px;
+    margin-top: 2px;
+    border-radius: 900px;
+}
+.caixa-imagem{
+    gap: 0.5rem;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.caixa-imagem img{
+    width: 100px;
+    height: 300px;
+    border-radius: 900px;
+    background-position: center;
+    
+}
+.caixa-imagem > img{
+    flex: 0.5;
+    background-size: 100% auto;
+    transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.caixa-imagem > img:hover{
+    flex: 1;
+    background-position: center;
+}
+
+   
 
     
    
