@@ -27,11 +27,11 @@ header{
 }
 .menu h2{
     margin-top: 4vh;
-    margin-right: 4vh;
+    margin-left: 4vh;
     text-decoration: none;
     color: white;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: all 0.1s ease;
 
 }
@@ -43,12 +43,14 @@ header{
     color: white;
     font-weight: 400;
     font-size: 1rem;
-    transition: all 0.1s ease;
+
 
 }
 .menu a:hover{
     border-bottom: 2px solid white;
     font-size: 1rem;
+    transition: all 0.1s ease-out;
+
 }
 
     
@@ -74,7 +76,7 @@ header{
     text-align: center;
     border: none ;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 0.8rem;
     transition: all 0.3s ease;
 }
 .aprenda:hover{
@@ -95,6 +97,8 @@ header{
     border-radius: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
+    font-size: 0.8rem;
+
 }
 .veja-mais:hover{
     background-color: rgb(43, 42, 42);
