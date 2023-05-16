@@ -107,13 +107,11 @@ header{
 .Botao-banner{
     margin-top: 3vh;
 }
-section{
-    padding: 30px 30px;
-    
-}
+
 section h3 {
     text-align: center;
     font-weight: normal;
+    margin-top: 30px;
 }
 .caixa-veja{
     display: flex;
@@ -169,7 +167,7 @@ section h3 {
 .venda{
     margin-top: 100px;
 }
-.ponto{
+/* .ponto{
     position:absolute;
     left: 780px;
     top: 1495px;
@@ -188,7 +186,7 @@ section h3 {
     background-color: black;
     animation: orbit 5s linear infinite;
     transform-origin: 10px 10px;
-}
+} */
 
 .texto-apresentacao{
     display: flex;
@@ -254,16 +252,10 @@ flex-wrap: nowrap;
 
 
 
+
+
    
-@keyframes orbit{
-    from{
-        transform:rotateZ(0deg)
-    }
-    to{
-        transform: rotateZ(360deg);
-    }
-}
-   
+
 
     
    
