@@ -1,31 +1,33 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-html{
+
+html {
     text-rendering: optimizeLegibility;
     font-size: 20px;
 }
 
-header{
-     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0, 0, 0, 0.5)), url(../css/img/Agua.jpg); 
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../css/img/Agua.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
-    
 
-    
-.menu{
+
+
+.menu {
     display: flex;
     margin-right: 5vh;
     align-items: baseline;
     justify-content: space-between;
 }
-.menu h2{
+
+.menu h2 {
     margin-top: 4vh;
     margin-left: 4vh;
     text-decoration: none;
@@ -36,7 +38,7 @@ header{
 
 }
 
-.nav a{
+.nav a {
     margin-top: 4vh;
     margin-right: 4vh;
     text-decoration: none;
@@ -46,51 +48,55 @@ header{
 
 
 }
-.menu a:hover{
+
+.menu a:hover {
     border-bottom: 2px solid white;
     font-size: 1rem;
     transition: all 0.1s ease-out;
 
 }
 
-    
-.banner{
+
+.banner {
     margin-top: 25vh;
     margin-left: 4vw;
     color: white;
     font-weight: bold;
 }
-.banner h3{
-    font-weight:500;
+
+.banner h3 {
+    font-weight: 500;
     margin-left: 1vw;
     margin-top: -10px;
     font-size: 1rem;
 }
-.aprenda{
+
+.aprenda {
     width: 125px;
     height: 25px;
     cursor: pointer;
     padding: 1px 1px;
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-align: center;
-    border: none ;
+    border: none;
     border-radius: 10px;
     font-size: 0.8rem;
     transition: all 0.3s ease;
 }
-.aprenda:hover{
+
+.aprenda:hover {
     background-color: rgb(43, 42, 42);
     color: #ffffff;
 }
 
-   
 
-.veja-mais{
+
+.veja-mais {
     width: 135px;
     height: 25px;
     margin-left: 1vw;
-    background-color:#ffffff ;
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
     text-align: center;
     border: none;
@@ -100,11 +106,13 @@ header{
     font-size: 0.8rem;
 
 }
-.veja-mais:hover{
+
+.veja-mais:hover {
     background-color: rgb(43, 42, 42);
-    color: #ffffff; 
+    color: #ffffff;
 }
-.Botao-banner{
+
+.Botao-banner {
     margin-top: 3vh;
 }
 
@@ -113,47 +121,53 @@ section h3 {
     font-weight: normal;
     margin-top: 30px;
 }
-.caixa-veja{
+
+.caixa-veja {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.linha{
+.linha {
     background-color: black;
     width: 300px;
     height: 2px;
     margin-top: 2px;
     border-radius: 900px;
 }
-.caixa-imagem{
+
+.caixa-imagem {
     gap: 0.5rem;
     margin-top: 30px;
     display: flex;
     justify-content: center;
 }
-.caixa-imagem img{
+
+.caixa-imagem img {
     width: 100px;
     height: 300px;
     border-radius: 900px;
     background-position: center;
-    
+
 }
-.caixa-imagem > img{
+
+.caixa-imagem>img {
     flex: 0.5;
     background-size: 100% auto;
     transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
 }
 
-.caixa-imagem > img:hover{
+.caixa-imagem>img:hover {
     flex: 1;
     background-position: center;
 }
-.retorno{
+
+.retorno {
     display: flex;
     justify-content: flex-end;
 }
-.retorno-img{
+
+.retorno-img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,11 +176,13 @@ section h3 {
     border-radius: 100%;
     border: solid 2px;
     border-color: rgb(0, 0, 0);
-    position:absolute
+    position: absolute
 }
-.venda{
+
+.venda {
     margin-top: 100px;
 }
+
 /* .ponto{
     position:absolute;
     left: 780px;
@@ -188,25 +204,29 @@ section h3 {
     transform-origin: 10px 10px;
 } */
 
-.texto-apresentacao{
+.texto-apresentacao {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.texto-apresentacao h3{
+
+.texto-apresentacao h3 {
     font-weight: 500;
     font-size: 2rem;
 }
-.texto-apresentacao h4{
+
+.texto-apresentacao h4 {
     font-weight: normal;
     width: 500px;
     font-size: 0.8rem;
 }
-.texto-apresentacao .linha{
+
+.texto-apresentacao .linha {
     width: 200px;
     margin-bottom: 20px;
 }
-.plug-img{
+
+.plug-img {
     display: flex;
     gap: 8rem;
     margin-top: 50px;
@@ -214,59 +234,99 @@ section h3 {
     margin: 25px;
 }
 
-.caixa-foto-texto{
+.caixa-foto-texto {
     display: flex;
-flex-wrap: nowrap;    
+    flex-wrap: nowrap;
 }
-.caixa-foto-texto div{
+
+.caixa-foto-texto div {
     float: left;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 10px;
-    
+
 }
-.caixa-foto-texto h5{
+
+.caixa-foto-texto h5 {
     font-size: 0.8rem;
     font-weight: normal;
 }
 
+.depoimento {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../css/img/CalorFrio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.depoimento h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 80px;
+
+}
+
+.depoimento p {
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+.row {
+    margin-top: 50px;
+    margin: 140px 2%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.center-text-row {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 91px;
+
+}
+
+.center-text-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 70px;
+}
+
+.rosto {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    float: left;
+    margin-top: 20px;
+}
 
 
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
 
+}
 
+.direitos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 
+.direitos h3 {
+    font-size: 0.4rem
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-    
-   
-
-
- 
-    
-
-
-
-
-
-
-    
+.direitos h4 {
+    font-size: 0.3rem;
+}
+.ul-sobre ul{
+    display: flex;
+    margin:;
+}
