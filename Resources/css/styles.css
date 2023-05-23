@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 html {
     text-rendering: optimizeLegibility;
     font-size: 20px;
+    font-family: 'Arial';
 }
 
 header {
@@ -22,14 +23,14 @@ header {
 
 .menu {
     display: flex;
-    margin-right: 5vh;
+    margin-right: 5vw;
     align-items: baseline;
     justify-content: space-between;
 }
 
 .menu h2 {
     margin-top: 4vh;
-    margin-left: 4vh;
+    margin-left: 4vw;
     text-decoration: none;
     color: white;
     font-weight: 400;
@@ -40,7 +41,7 @@ header {
 
 .nav a {
     margin-top: 4vh;
-    margin-right: 4vh;
+    margin-right: 2vw;
     text-decoration: none;
     color: white;
     font-weight: 400;
@@ -168,42 +169,13 @@ section h3 {
     justify-content: flex-end;
 }
 
-.retorno-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    border: solid 2px;
-    border-color: rgb(0, 0, 0);
-    position: absolute
-}
+
 
 .venda {
     margin-top: 100px;
 }
 
-/* .ponto{
-    position:absolute;
-    left: 780px;
-    top: 1495px;
-    width: 5px;
-    height: 5px;
-    border-radius: 100%;
-    background-color: black;
-}
-.orbit{
-    position:absolute;
-    left: 775px;
-    top: 1488px;
-    width: 3px;
-    height: 3px;
-    border-radius: 100%;
-    background-color: black;
-    animation: orbit 5s linear infinite;
-    transform-origin: 10px 10px;
-} */
+
 
 .texto-apresentacao {
     display: flex;
@@ -277,7 +249,7 @@ section h3 {
 }
 
 .row {
-    margin-top: 50px;
+    
     margin: 140px 2%;
     display: flex;
     align-items: flex-end;
@@ -307,26 +279,27 @@ section h3 {
 }
 
 
-footer{
+footer {
     height: 100px;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(72, 72, 72);
 
 }
 
-.links{
+.links {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.links a{
+.links a {
     text-decoration: none;
     color: #414040;
     margin-right: 10px;
     margin-top: 40px;
     margin-left: 20px;
 }
+
 .direitos {
     display: flex;
     align-items: flex-end;
@@ -341,3 +314,109 @@ footer{
 .direitos h4 {
     font-size: 0.3rem;
 }
+
+@media screen and (max-width:859px) {
+    .caixa-imagem {
+        gap: 0.5rem;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .texto-apresentacao h4 {
+        font-weight: normal;
+        width: 100%;
+        margin: 0 2%;
+        font-size: 0.8rem;
+    }
+        
+
+    
+    .row {
+        margin: 16px 2%;
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+    .depoimento h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 300;
+        color: #ffffff;
+        padding-top: 24px;
+    }
+    .depoimento p {
+        font-size: 0.7rem;
+        font-style: italic;
+        margin-left: 50px;
+    }
+
+    .depoimento .span-1-of-4{
+        width: 47%;
+    }
+    .center-text-row {
+        display: flex;
+        align-items: center;
+        margin-right: 23px;
+        font-size: 0.7rem;
+    
+    }
+    
+    .center-text-row2 {
+        display: flex;
+        align-items: center;
+        margin-right: 23px;
+        font-size: 0.7rem;
+    
+    }
+
+    .rosto {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-left: 70px;
+        float: left;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    
+    
+    
+    
+    .depoimento p {
+
+        font-size: 0.6rem;
+        font-style: italic;
+        margin-left: 50px;
+    }
+    .rosto {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        margin-left: 70px;
+        float: left;
+        margin-top: 20px;
+    }
+    .center-text-row {
+        display: flex;
+        align-items: center;
+        margin-right: 23px;
+        font-size: 0.6rem;
+    
+    }
+    
+    .center-text-row2 {
+        display: flex;
+        align-items: center;
+        margin-right: 23px;
+        font-size: 0.6rem;
+    
+    }
+    
+}
+
+
+
